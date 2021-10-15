@@ -5,7 +5,7 @@ class MicroAlignMultipleCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
         view = self.view
-        sel = view.sel()
+        sel  = view.sel()
 
         if len(sel) == 1:
             return
